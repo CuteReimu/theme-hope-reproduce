@@ -7,8 +7,9 @@ on:
       - main
 
 permissions:
-  contents: write
+  contents: read
   id-token: write
+  pages: write
 
 jobs:
   deploy-gh-pages:
